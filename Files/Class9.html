@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Nesting</title>
+    <style>
+        .container {
+            border: 2px solid green;
+        }
+
+        .row {
+            background-color: pink;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        #menu{
+            background-color: chocolate;
+        }
+        #menu li{
+            list-style: none;
+            border: 2px solid yellow;
+            text-align: center;
+            padding: 4px;
+            margin: 5px;
+            border-radius: 50px;
+        }
+
+        .red {
+            border: 2px solid red;
+        }
+
+        .blue {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 yellow">
+                <div class="row red">
+                    <div class="col-md-6 blue">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse ab minus eum, quas aliquam ut cum
+                        maiores voluptas neque inventore dicta tempore unde error?
+                    </div>
+                    <div class="col-md-4 green" id="menu">
+                        <ul>
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Vides</li>
+                            <li>Contact Us</li>
+                            <li>Product</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis aut repellat quidem autem qui recusandae
+                perspiciatis doloribus rerum. Vitae odio, ad, ipsum aliquid illum consectetur laudantium dicta assumenda
+                laboriosam nesciunt eligendi quaerat cupiditate ipsa.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
