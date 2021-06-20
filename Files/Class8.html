@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Ordering Columns</title>
+    <style>
+        .pink {
+            background-color: pink;
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+        .row .col-md-4 li {
+            list-style: none;
+            text-align: center;
+            font-family: cursive;
+            font-weight: 800;
+            border: 2px solid red;
+            border-radius: 20px;
+            background-color: red;
+            padding: 5px;
+            margin: 20px;
+        }
+        .row .col-md-4 li:hover {
+            background-color: yellow;
+            border: none;
+        }
+
+        .green {
+            background-color: green;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 pink order-md-2">
+                <marquee behavior="40px " direction="right"><h1>Welcome To India</h1></marquee>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                fuga animi tempora consectetur velit quasi natus saepe? Error voluptatibus facere quis esse culpa
+                repellendus consectetur sequi, aut harum tempora iusto incidunt ratione qui. Nam excepturi pariatur
+                dolorum dolore eius, at repudiandae, nostrum placeat reiciendis libero id a maiores corrupti accusantium
+                perferendis odit officia consequatur eum aliquam? Itaque doloribus asperiores voluptas ducimus enim
+                rerum veniam ut, deserunt vitae quaerat totam exercitationem, cumque possimus expedita voluptatum
+                obcaecati nihil iure eum recusandae accusamus, molestias similique. Tempora officia dolor velit amet
+                odit totam, eos obcaecati est neque impedit, facilis consequuntur ex quibusdam veniam at.</p></div>
+            <div class="col-md-4 yellow order-md-1">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Vides</li>
+                    <li>Contact Us</li>
+                    <li>Product</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
